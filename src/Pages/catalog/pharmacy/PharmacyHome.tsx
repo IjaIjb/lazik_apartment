@@ -1,8 +1,8 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import Navbar from "../../Navbar";
+import React from 'react'
+import Navbar from '../../Navbar'
+import { Link, NavLink } from 'react-router-dom'
 
-const GymsHome = () => {
+const PharmacyHome = () => {
   return (
     <div>
       <Navbar />
@@ -16,7 +16,7 @@ const GymsHome = () => {
           <div className="max-w-screen-xl px-3 lg:px-14  mx-auto lg:gap-8 xl:gap-12 ">
             <div className="flex flex-col gap-2  h-full text-white">
               <h4 className="text-amber-400 md:pt-[130px] pt-[100px] z-10 text-[30px] md:text-[45px] font-[600]">
-                Gym
+        Pharmacy
               </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
@@ -28,18 +28,40 @@ const GymsHome = () => {
                     className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                    Genesis Fitness 50 , Ajah
+                    Gnc Pharmacy, Sangotedo
                   </h4>
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  <img
+                  {/* <img
                     src="/images/gyms/i-fit.jpg"
+                    alt="location"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                  /> */}
+                  <h4 className="text-[12px] text-center uppercase">
+                   DkK Pharmacy
+                  </h4>
+                </Link>
+
+                <Link to="/catalog/food-vendor/yakoyo">
+                  {/* <img
+                    src="/images/foodVendor/yakoyo.jpg"
+                    alt="location"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                  /> */}
+                  <h4 className="text-[12px] text-center uppercase">
+                  Pharmacy 24, Sangotedo
+                  </h4>
+                </Link>
+
+                <Link to="/catalog/pharmacy/belfast">
+                  <img
+                    src="/images/pharmacy/belfast.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
-                    i-Fitness Gym, Ajah
+                   Belfast plus pharmcy, Canaan estate
                   </h4>
                 </Link>
 
@@ -50,7 +72,7 @@ const GymsHome = () => {
                     className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                    I AM FIT Gym, Abraham Adesanya
+                 Living healthy, Thera Annex
                   </h4>
                 </Link>
 
@@ -61,51 +83,10 @@ const GymsHome = () => {
                     className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                    i-Fitness Gym, Badore
+                   Elmickey pharmacy and stores, Idowu Dabiri Rd
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
-                    alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
-                  <h4 className="text-[12px] text-center uppercase">
-                    Amplified Gym
-                  </h4>
-                </Link>
-
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
-                    alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
-                  <h4 className="text-[12px] text-center uppercase">
-                    i-Fitness Gym, VGC branch
-                  </h4>
-                </Link>
-
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
-                    alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
-                  <h4 className="text-[12px] text-center uppercase">
-                    Pure fitness Africa, Ikota
-                  </h4>
-                </Link>
-
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
-                    alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
-                  <h4 className="text-[12px] text-center uppercase">Fitness</h4>
-                </Link>
               </div>
               <NavLink
                 to="/"
@@ -119,7 +100,7 @@ const GymsHome = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default GymsHome;
+export default PharmacyHome

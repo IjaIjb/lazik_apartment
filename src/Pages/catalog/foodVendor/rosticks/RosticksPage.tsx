@@ -1,8 +1,8 @@
-import React from 'react'
-import Navbar from '../../../Navbar'
-import { IoPersonCircleSharp } from 'react-icons/io5'
-import { GrLocation } from 'react-icons/gr'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import Navbar from "../../../Navbar";
+import { IoPersonCircleSharp } from "react-icons/io5";
+import { GrLocation } from "react-icons/gr";
+import { NavLink } from "react-router-dom";
 
 const RosticksPage = () => {
   return (
@@ -18,13 +18,13 @@ const RosticksPage = () => {
           <div className="max-w-screen-xl px-3 lg:px-14  mx-auto lg:gap-8 xl:gap-12 ">
             <div className="flex flex-col gap-2  h-full text-white">
               <h4 className="text-amber-400 md:pt-[130px] pt-[100px] z-10 text-[30px] md:text-[45px] font-[600]">
-            Rosticks
+                Rosticks
               </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
               <div className="z-10">
                 <img
-                 src="/images/foodVendor/rosticks.jpg"
+                  src="/images/foodVendor/rosticks.jpg"
                   alt="location"
                   className="w-[300px] h-[300px]  rounded-md"
                 />
@@ -40,9 +40,13 @@ const RosticksPage = () => {
 <GrLocation className="text-amber-400 w-8 h-8"/>
 Sango Itedo
 </div> */}
-                <a href='https://www.google.com/localservices/profile?spp=Cg0vZy8xMWg5a2ZmZGp4&scp=CgAaE1Jvc3RpY2tzIFJlc3RhdXJhbnQqE1Jvc3RpY2tzIFJlc3RhdXJhbnQ%3D&q=Rosticks%20Restaurant&source=sh%2Fx%2Fuk%2Fm0%2F0&kgs=f17baef3da494d76' target='_blank' className="flex items-center gap-2">
+                <a
+                  href="https://www.google.com/localservices/profile?spp=Cg0vZy8xMWg5a2ZmZGp4&scp=CgAaE1Jvc3RpY2tzIFJlc3RhdXJhbnQqE1Jvc3RpY2tzIFJlc3RhdXJhbnQ%3D&q=Rosticks%20Restaurant&source=sh%2Fx%2Fuk%2Fm0%2F0&kgs=f17baef3da494d76"
+                  target="_blank"
+                  className="flex items-center gap-2"
+                >
                   <GrLocation className="text-amber-400 w-8 h-8" />
-              Rosticks restaurants
+                  Rosticks restaurants
                 </a>
               </div>
 
@@ -50,7 +54,7 @@ Sango Itedo
                 to="/"
                 className="-mt-16 text-[22px] flex justify-end z-10"
               >
-                Lazik Apartment
+                <img src="/images/logod2.png" alt="location" className="" />
               </NavLink>
             </div>
           </div>
@@ -58,7 +62,7 @@ Sango Itedo
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default RosticksPage
+export default RosticksPage;

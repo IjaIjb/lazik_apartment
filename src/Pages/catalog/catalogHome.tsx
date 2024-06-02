@@ -144,7 +144,7 @@ const catalogHome = () => {
                   </h4>
                 </div>
 
-                <div>
+                <Link to="/catalog/pharmacy">
                   <img
                     src="/images/download (10).jpg"
                     alt="location"
@@ -153,14 +153,17 @@ const catalogHome = () => {
                   <h4 className="text-[12px] text-center uppercase">
                     pharmacy
                   </h4>
-                </div>
+                </Link>
               </div>
-              <NavLink
-                to="/"
-                className="-mt-16 text-[22px] flex justify-end z-10"
-              >
-                Lazik Apartment
-              </NavLink>
+              <NavLink to="/" className="-mt-16 text-[22px] flex justify-end z-10">
+    
+    <img
+                        src="/images/logod2.png"
+          alt="location"
+          className=""
+        />
+
+    </NavLink>
             </div>
           </div>
           <div className="overlay absolute inset-0 bg-black opacity-70"></div>

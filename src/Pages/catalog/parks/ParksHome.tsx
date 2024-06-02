@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import Navbar from '../../Navbar'
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import Navbar from "../../Navbar";
 
 const ParksHome = () => {
   return (
@@ -16,8 +16,8 @@ const ParksHome = () => {
           <div className="max-w-screen-xl px-3 lg:px-14  mx-auto lg:gap-8 xl:gap-12 ">
             <div className="flex flex-col gap-2  h-full text-white">
               <h4 className="text-amber-400 md:pt-[130px] pt-[100px] z-10 text-[30px] md:text-[45px] font-[600]">
-    Cinemas 
-           </h4>
+                Cinemas
+              </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
               <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
@@ -25,10 +25,10 @@ const ParksHome = () => {
                   <img
                     src="/images/parks/lufasi.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
-                  Lufasi Nature Park
+                    Lufasi Nature Park
                   </h4>
                 </Link>
 
@@ -36,10 +36,10 @@ const ParksHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  VGC PARK 2
+                    VGC PARK 2
                   </h4>
                 </Link>
 
@@ -47,10 +47,10 @@ const ParksHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  Lekki conservation center
+                    Lekki conservation center
                   </h4>
                 </Link>
 
@@ -58,10 +58,10 @@ const ParksHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  Muri Okunola park
+                    Muri Okunola park
                   </h4>
                 </Link>
 
@@ -69,19 +69,18 @@ const ParksHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  Greenfingers Wildlife Conservation
+                    Greenfingers Wildlife Conservation
                   </h4>
                 </Link>
-         
               </div>
               <NavLink
                 to="/"
                 className="-mt-16 text-[22px] flex justify-end z-10"
               >
-                Lazik Apartment
+                <img src="/images/logod2.png" alt="location" className="" />
               </NavLink>
             </div>
           </div>
@@ -89,7 +88,7 @@ const ParksHome = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ParksHome
+export default ParksHome;

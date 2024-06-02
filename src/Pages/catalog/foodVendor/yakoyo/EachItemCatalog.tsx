@@ -24,7 +24,7 @@ const EachItemCatalog = () => {
 
               <div className="z-10">
                 <img
-                src="/images/foodVendor/yakoyo.jpg"
+                  src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
                   className="w-[300px] h-[300px] rounded-md"
                 />
@@ -40,7 +40,11 @@ const EachItemCatalog = () => {
 <GrLocation className="text-amber-400 w-8 h-8"/>
 Sango Itedo
 </div> */}
-                <a href="https://g.co/kgs/hbjdKxW" target="" className="flex items-center gap-2">
+                <a
+                  href="https://g.co/kgs/hbjdKxW"
+                  target=""
+                  className="flex items-center gap-2"
+                >
                   <GrLocation className="text-amber-400 w-8 h-8" />
                   Yakoyo Abula Joint
                 </a>
@@ -50,7 +54,7 @@ Sango Itedo
                 to="/"
                 className="-mt-16 text-[22px] flex justify-end z-10"
               >
-                Lazik Apartment
+                <img src="/images/logod2.png" alt="location" className="" />
               </NavLink>
             </div>
           </div>

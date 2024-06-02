@@ -1,6 +1,6 @@
-import React from 'react'
-import Navbar from '../../Navbar'
-import { Link, NavLink } from 'react-router-dom'
+import React from "react";
+import Navbar from "../../Navbar";
+import { Link, NavLink } from "react-router-dom";
 
 const RestaurantsHome = () => {
   return (
@@ -16,7 +16,8 @@ const RestaurantsHome = () => {
           <div className="max-w-screen-xl px-3 lg:px-14  mx-auto lg:gap-8 xl:gap-12 ">
             <div className="flex flex-col gap-2  h-full text-white">
               <h4 className="text-amber-400 md:pt-[130px] pt-[100px] z-10 text-[30px] md:text-[45px] font-[600]">
-          Restaurants   </h4>
+                Restaurants{" "}
+              </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
               <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
@@ -24,10 +25,10 @@ const RestaurantsHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  Bole plus, Barbecue restaurant
+                    Bole plus, Barbecue restaurant
                   </h4>
                 </Link>
 
@@ -35,10 +36,10 @@ const RestaurantsHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  Rosticks restaurant(pizza)
+                    Rosticks restaurant(pizza)
                   </h4>
                 </Link>
 
@@ -46,10 +47,10 @@ const RestaurantsHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  Matthans shawarma
+                    Matthans shawarma
                   </h4>
                 </Link>
 
@@ -57,10 +58,10 @@ const RestaurantsHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  Domino’s pizza
+                    Domino’s pizza
                   </h4>
                 </Link>
 
@@ -68,10 +69,10 @@ const RestaurantsHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  Food dynasty, (Chinese restaurant)
+                    Food dynasty, (Chinese restaurant)
                   </h4>
                 </Link>
 
@@ -79,10 +80,10 @@ const RestaurantsHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  Blossom delight fast food
+                    Blossom delight fast food
                   </h4>
                 </Link>
 
@@ -90,10 +91,10 @@ const RestaurantsHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  01MANDARIN CHINESE TAKEAWAY
+                    01MANDARIN CHINESE TAKEAWAY
                   </h4>
                 </Link>
 
@@ -101,10 +102,10 @@ const RestaurantsHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  SKI RESTAURANT
+                    SKI RESTAURANT
                   </h4>
                 </Link>
 
@@ -112,20 +113,18 @@ const RestaurantsHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px]rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
-                  China Wok Restaurant
+                    China Wok Restaurant
                   </h4>
                 </Link>
-
-         
               </div>
               <NavLink
                 to="/"
                 className="-mt-16 text-[22px] flex justify-end z-10"
               >
-                Lazik Apartment
+                <img src="/images/logod2.png" alt="location" className="" />
               </NavLink>
             </div>
           </div>
@@ -133,7 +132,7 @@ const RestaurantsHome = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default RestaurantsHome
+export default RestaurantsHome;

@@ -16,6 +16,10 @@ import SupermarketHome from './Pages/catalog/supermarket/SupermarketHome';
 import CinemasHome from './Pages/catalog/cinemas/CinemasHome';
 import ParksHome from './Pages/catalog/parks/ParksHome';
 import GymsHome from './Pages/catalog/gym/GymsHome';
+import PharmacyHome from './Pages/catalog/pharmacy/PharmacyHome';
+import AmenitiesHome from './Pages/amenities/AmenitiesHome';
+import ContactUs from './Pages/contact/ContactUs';
+import BookNow from './Pages/BookNow';
 
 function App() {
   return (
@@ -33,6 +37,9 @@ function App() {
   <Route  path="/catalog/food-vendor/liz-grills" element={<LizGrill/>}/>
 
   <Route  path="/catalog/restaurants" element={<RestaurantsHome/>}/>
+  <Route  path="/amenities" element={<AmenitiesHome/>}/>
+  <Route  path="/contact" element={<ContactUs/>}/>
+  <Route  path="/book-now" element={<BookNow/>}/>
  
  
  
@@ -47,8 +54,11 @@ function App() {
 
   <Route  path="/catalog/gyms" element={<GymsHome/>}/>
 
+  <Route  path="/catalog/pharmacy" element={<PharmacyHome/>}/>
+  <Route  path="/catalog/pharmacy/belfast" element={<PharmacyHome/>}/>
 
 
+  
   </Routes>
     </div>
   );

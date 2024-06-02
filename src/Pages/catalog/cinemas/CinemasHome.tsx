@@ -25,7 +25,7 @@ const CinemasHome = () => {
                   <img
                   src="/images/cinemas/skymall.jpg"
                   alt="location"
-                  className="w-full h-[200px] rounded-md"
+                  className="w-full md:h-[200px] h-[100px]rounded-md"
                 />
                   <h4 className="text-[12px] text-center uppercase">
                  Sky cinemas Sangotedo
@@ -36,7 +36,7 @@ const CinemasHome = () => {
                 <img
                   src="/images/cinemas/genesis.jpg"
                   alt="location"
-                  className="w-full h-[200px] rounded-md"
+                  className="w-full md:h-[200px] h-[100px]rounded-md"
                 />
                   <h4 className="text-[12px] text-center uppercase">
                   Genesis cinemas, sangotedo
@@ -47,7 +47,7 @@ const CinemasHome = () => {
                   {/* <img
                   src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
-                  className="w-full h-[200px] rounded-md"
+                  className="w-full md:h-[200px] h-[100px]rounded-md"
                 /> */}
                   <h4 className="text-[12px] text-center uppercase">
                   Genesis Deluxe cinemas, palms shopping mall, Lekki
@@ -58,7 +58,7 @@ const CinemasHome = () => {
                   {/* <img
                   src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
-                  className="w-full h-[200px] rounded-md"
+                  className="w-full md:h-[200px] h-[100px]rounded-md"
                 /> */}
                   <h4 className="text-[12px] text-center uppercase">
                   Filmhouse cinemas, Ikota
@@ -69,7 +69,7 @@ const CinemasHome = () => {
                   {/* <img
                   src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
-                  className="w-full h-[200px] rounded-md"
+                  className="w-full md:h-[200px] h-[100px]rounded-md"
                 /> */}
                   <h4 className="text-[12px] text-center uppercase">
                   Filmhouse cinemas, IMAX Lekki Lagos ,
@@ -80,7 +80,7 @@ const CinemasHome = () => {
                   {/* <img
                   src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
-                  className="w-full h-[200px] rounded-md"
+                  className="w-full md:h-[200px] h-[100px]rounded-md"
                 /> */}
                   <h4 className="text-[12px] text-center uppercase">
                   Grand cinemas and Arcade, Chevron drive,
@@ -91,7 +91,7 @@ const CinemasHome = () => {
                   {/* <img
                   src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
-                  className="w-full h-[200px] rounded-md"
+                  className="w-full md:h-[200px] h-[100px]rounded-md"
                 /> */}
                   <h4 className="text-[12px] text-center uppercase">
                   Silverbird Galleria, VI
@@ -102,7 +102,7 @@ const CinemasHome = () => {
                   {/* <img
                   src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
-                  className="w-full h-[200px] rounded-md"
+                  className="w-full md:h-[200px] h-[100px]rounded-md"
                 /> */}
                   <h4 className="text-[12px] text-center uppercase">
                   Filmhouse cinema, Lekki peninsula II, Lekki
@@ -113,19 +113,22 @@ const CinemasHome = () => {
                   {/* <img
                   src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
-                  className="w-full h-[200px] rounded-md"
+                  className="w-full md:h-[200px] h-[100px]rounded-md"
                 /> */}
                   <h4 className="text-[12px] text-center uppercase">
                     China Wok Restaurant
                   </h4>
                 </Link>
               </div>
-              <NavLink
-                to="/"
-                className="-mt-16 text-[22px] flex justify-end z-10"
-              >
-                Lazik Apartment
-              </NavLink>
+              <NavLink to="/" className="-mt-16 text-[22px] flex justify-end z-10">
+    
+    <img
+                        src="/images/logod2.png"
+          alt="location"
+          className=""
+        />
+
+    </NavLink>
             </div>
           </div>
           <div className="overlay absolute inset-0 bg-black opacity-70"></div>

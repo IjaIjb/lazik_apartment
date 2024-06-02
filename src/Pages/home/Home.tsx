@@ -63,19 +63,19 @@ To get to know more information about us
     <div className='flex justify-between md:justify-start z-10 items-center pt-7 gap-1 md:gap-4'>
 <div className='z-10'>
 <Link to="/catalog" className='bg-amber-400 rounded-full md:px-3 px-1 md:py-3 py-2'>
-  Homey Catalog
+ Lazik Catalog
 </Link>
   </div>
 
   <div className='z-10'>
-<button className='bg-amber-400 rounded-full md:px-5 px-3 md:py-3  py-2'>
+  <Link to="/contact" className='bg-amber-400 rounded-full md:px-5 px-3 md:py-3  py-2'>
 Contact us
-</button>
+</Link>
   </div>
   <div className='z-10'>
-<button className='bg-amber-400 rounded-full md:px-5 px-3 md:py-3  py-2'>
+  <Link to="/amenities" className='bg-amber-400 rounded-full md:px-5 px-3 md:py-3  py-2'>
 Amenities
-</button>
+</Link>
   </div>
         </div>
       </div>

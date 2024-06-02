@@ -25,7 +25,7 @@ const CatalogItemPage = () => {
                   <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px]    h-[100px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     yakoyo abula joint
@@ -37,7 +37,7 @@ const CatalogItemPage = () => {
                   <img
                     src="/images/foodVendor/rosticks.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px]    h-[100px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     rosticks
@@ -49,7 +49,7 @@ const CatalogItemPage = () => {
                   <img
  src="/images/foodVendor/chicken.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px]    h-[100px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     chicken republic
@@ -61,7 +61,7 @@ const CatalogItemPage = () => {
                   <img
                     src="/images/download (3).jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px]    h-[100px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     jowi cuisine
@@ -73,7 +73,7 @@ const CatalogItemPage = () => {
                   <img
                src="/images/foodVendor/chefSammie.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px]    h-[100px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     chef sammie
@@ -85,7 +85,7 @@ const CatalogItemPage = () => {
                   <img
                     src="/images/foodVendor/amarosy.jpg"
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px]    h-[100px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     amarosy delight parfait
@@ -98,19 +98,22 @@ const CatalogItemPage = () => {
                  src="/images/foodVendor/liz.jpg"
 
                     alt="location"
-                    className="w-full h-[200px] rounded-md"
+                    className="w-full md:h-[200px] h-[100px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     liz's grills
                   </h4>
                 </Link>
               </div>
-              <NavLink
-                to="/"
-                className="-mt-16 text-[22px] flex justify-end z-10"
-              >
-                Lazik Apartment
-              </NavLink>
+              <NavLink to="/" className="-mt-16 text-[22px] flex justify-end z-10">
+    
+    <img
+                        src="/images/logod2.png"
+          alt="location"
+          className=""
+        />
+
+    </NavLink>
             </div>
           </div>
           <div className="overlay absolute inset-0 bg-black opacity-70"></div>

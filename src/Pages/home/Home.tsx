@@ -22,9 +22,9 @@ const Home = () => {
         <br />
         <br />
         
-        We offer comfortable and clean accomodation that re perfect for business or leisure travel.
+        We offer comfortable and clean accomodation that are perfect for business or leisure travel.
         <br />
-        We are located nearby mny restaurants, shops and attractions making it easy for you to explore the area on foot or by public transport</h4>
+        We are located nearby many restaurants, shops and attractions making it easy for you to explore the area on foot or by public transport</h4>
    
             </div>
         ) : activeText === 'another' ? (

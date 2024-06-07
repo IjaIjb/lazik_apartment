@@ -6,7 +6,7 @@ const catalogHome = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-screen">
+      <div className="relative h-full">
         <div className="  pb-20 object-cover h-full w-full ">
           <img
             src="/images/bg.jpg"

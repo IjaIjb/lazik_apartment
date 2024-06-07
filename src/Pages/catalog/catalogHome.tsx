@@ -6,7 +6,7 @@ const catalogHome = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-full">
+      <div className="relative h-screen">
         <div className="  pb-20 object-cover h-full w-full ">
           <img
             src="/images/bg.jpg"
@@ -85,7 +85,6 @@ const catalogHome = () => {
                 </div>
 
                 <Link to="/catalog/parks">
-
                   <img
                     src="/images/images.jpg"
                     alt="location"
@@ -95,7 +94,6 @@ const catalogHome = () => {
                 </Link>
 
                 <Link to="/catalog/gyms">
-
                   <img
                     src="/images/download (6).jpg"
                     alt="location"
@@ -155,15 +153,9 @@ const catalogHome = () => {
                   </h4>
                 </Link>
               </div>
-              <NavLink to="/" className="-mt-16 text-[22px] flex justify-end z-10">
-    
-    <img
-                        src="/images/logod2.png"
-          alt="location"
-          className=""
-        />
-
-    </NavLink>
+              <NavLink to="/" className=" text-[22px] flex justify-end z-10">
+                <img src="/images/logod2.png" alt="location" className="" />
+              </NavLink>
             </div>
           </div>
           <div className="overlay absolute inset-0 bg-black opacity-70"></div>

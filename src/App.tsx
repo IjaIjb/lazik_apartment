@@ -20,6 +20,8 @@ import PharmacyHome from './Pages/catalog/pharmacy/PharmacyHome';
 import AmenitiesHome from './Pages/amenities/AmenitiesHome';
 import ContactUs from './Pages/contact/ContactUs';
 import BookNow from './Pages/BookNow';
+import Wifi from './Pages/amenities/Wifi';
+import BelfastPharmacy from './Pages/catalog/pharmacy/BelfastPharmacy';
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
 
   <Route  path="/catalog/restaurants" element={<RestaurantsHome/>}/>
   <Route  path="/amenities" element={<AmenitiesHome/>}/>
+  <Route  path="/amenities/wifi" element={<Wifi/>}/>
   <Route  path="/contact" element={<ContactUs/>}/>
   <Route  path="/book-now" element={<BookNow/>}/>
  
@@ -55,7 +58,7 @@ function App() {
   <Route  path="/catalog/gyms" element={<GymsHome/>}/>
 
   <Route  path="/catalog/pharmacy" element={<PharmacyHome/>}/>
-  <Route  path="/catalog/pharmacy/belfast" element={<PharmacyHome/>}/>
+  <Route  path="/catalog/pharmacy/belfast" element={<BelfastPharmacy/>}/>
 
 
   

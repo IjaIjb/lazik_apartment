@@ -6,7 +6,7 @@ const ParksHome = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-full ">
+      <div className="relative h-screen ">
         <div className="h-full  pb-20 object-cover w-full ">
           <img
             src="/images/bg.jpg"
@@ -16,7 +16,7 @@ const ParksHome = () => {
           <div className="max-w-screen-xl px-3 lg:px-14  mx-auto lg:gap-8 xl:gap-12 ">
             <div className="flex flex-col gap-2  h-full text-white">
               <h4 className="text-amber-400 md:pt-[130px] pt-[100px] z-10 text-[30px] md:text-[45px] font-[600]">
-                Cinemas
+                Parks
               </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
@@ -76,10 +76,7 @@ const ParksHome = () => {
                   </h4>
                 </Link>
               </div>
-              <NavLink
-                to="/"
-                className="-mt-16 text-[22px] flex justify-end z-10"
-              >
+              <NavLink to="/" className="text-[22px] flex justify-end z-10">
                 <img src="/images/logod2.png" alt="location" className="" />
               </NavLink>
             </div>

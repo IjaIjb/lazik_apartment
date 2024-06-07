@@ -1,6 +1,8 @@
 import { Transition } from "@headlessui/react";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { MdMenu } from "react-icons/md";
+import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,31 +29,21 @@ const Navbar = () => {
             >
               <span className="sr-only ">Open main menu</span>
               {!isOpen ? (
-                <svg
-                  className="text-amber-400 "
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#1db459"
-                    d="M4 18q-.425 0-.713-.288T3 17q0-.425.288-.713T4 16h16q.425 0 .713.288T21 17q0 .425-.288.713T20 18H4Zm0-5q-.425 0-.713-.288T3 12q0-.425.288-.713T4 11h16q.425 0 .713.288T21 12q0 .425-.288.713T20 13H4Zm0-5q-.425 0-.713-.288T3 7q0-.425.288-.713T4 6h16q.425 0 .713.288T21 7q0 .425-.288.713T20 8H4Z"
-                  />
-                </svg>
+                <MdMenu className="w-7 h-7 text-amber-400 " />
               ) : (
-                <svg
-                  className="text-amber-400 "
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="#1db459"
-                    d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6L6.4 19Z"
-                  />
-                </svg>
+                // <svg
+                //   className="text-amber-400 "
+                //   xmlns="http://www.w3.org/2000/svg"
+                //   width="24"
+                //   height="24"
+                //   viewBox="0 0 24 24"
+                // >
+                //   <path
+                //     fill="#1db459"
+                //     d="M4 18q-.425 0-.713-.288T3 17q0-.425.288-.713T4 16h16q.425 0 .713.288T21 17q0 .425-.288.713T20 18H4Zm0-5q-.425 0-.713-.288T3 12q0-.425.288-.713T4 11h16q.425 0 .713.288T21 12q0 .425-.288.713T20 13H4Zm0-5q-.425 0-.713-.288T3 7q0-.425.288-.713T4 6h16q.425 0 .713.288T21 7q0 .425-.288.713T20 8H4Z"
+                //   />
+                // </svg>
+                <IoMdClose className="w-7 h-7 text-amber-400 " />
               )}
             </button>
           </div>
@@ -85,7 +77,7 @@ const Navbar = () => {
                 Amenities
               </NavLink>
               <NavLink
-               to="/contact" 
+                to="/contact"
                 className=" flex space-x-2 py-2 pr-4 text-sm tracking-wider font-normal hover:font-semibold leading-5  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#3f71a8] lg:pb-5 "
                 style={({ isActive }) =>
                   isActive
@@ -118,7 +110,7 @@ const Navbar = () => {
           leave="transition ease-in duration-400 transform"
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
-          className="absolute top-0 right-0 mt-20 mr-4 w-[200px]"
+          className="absolute top-20 right-0 mt-20 mr-4 w-[200px]"
         >
           {(ref) => (
             <div className="lg:hidden    bg-amber-400   mt-3" id="mobile-menu">
@@ -143,7 +135,7 @@ const Navbar = () => {
                 <hr className="pb-3" />
 
                 <NavLink
-             to="/contact" 
+                  to="/contact"
                   onClick={() => setIsOpen(!isOpen)}
                   className="block text-[#616161] pl-3  font-medium hover:bg-gray-100"
                 >

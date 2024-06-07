@@ -8,7 +8,7 @@ const RosticksPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-full">
+      <div className="relative h-screen">
         <div className="h-full  pb-20  w-full ">
           <img
             src="/images/bg.jpg"
@@ -50,10 +50,7 @@ Sango Itedo
                 </a>
               </div>
 
-              <NavLink
-                to="/"
-                className="-mt-16 text-[22px] flex justify-end z-10"
-              >
+              <NavLink to="/" className=" text-[22px] flex justify-end z-10">
                 <img src="/images/logod2.png" alt="location" className="" />
               </NavLink>
             </div>

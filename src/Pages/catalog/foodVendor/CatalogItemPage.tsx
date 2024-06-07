@@ -6,7 +6,7 @@ const CatalogItemPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-full ">
+      <div className="relative h-screen ">
         <div className="h-full  pb-20 object-cover w-full ">
           <img
             src="/images/bg.jpg"
@@ -33,7 +33,6 @@ const CatalogItemPage = () => {
                 </Link>
 
                 <Link to="/catalog/food-vendor/rosticks">
-
                   <img
                     src="/images/foodVendor/rosticks.jpg"
                     alt="location"
@@ -42,12 +41,11 @@ const CatalogItemPage = () => {
                   <h4 className="text-[12px] text-center uppercase">
                     rosticks
                   </h4>
-               </Link>
+                </Link>
 
-               <Link to="/catalog/food-vendor/chicken-republic">
-
+                <Link to="/catalog/food-vendor/chicken-republic">
                   <img
- src="/images/foodVendor/chicken.jpg"
+                    src="/images/foodVendor/chicken.jpg"
                     alt="location"
                     className="w-full md:h-[200px]    h-[100px] rounded-md"
                   />
@@ -57,7 +55,6 @@ const CatalogItemPage = () => {
                 </Link>
 
                 <Link to="/catalog/food-vendor/jowi-cuisine">
-
                   <img
                     src="/images/download (3).jpg"
                     alt="location"
@@ -69,9 +66,8 @@ const CatalogItemPage = () => {
                 </Link>
 
                 <Link to="/catalog/food-vendor/chef-sammie">
-
                   <img
-               src="/images/foodVendor/chefSammie.jpg"
+                    src="/images/foodVendor/chefSammie.jpg"
                     alt="location"
                     className="w-full md:h-[200px]    h-[100px] rounded-md"
                   />
@@ -81,7 +77,6 @@ const CatalogItemPage = () => {
                 </Link>
 
                 <Link to="/catalog/food-vendor/ambrosy-delight-parfait">
-
                   <img
                     src="/images/foodVendor/amarosy.jpg"
                     alt="location"
@@ -93,10 +88,8 @@ const CatalogItemPage = () => {
                 </Link>
 
                 <Link to="/catalog/food-vendor/liz-grills">
-
                   <img
-                 src="/images/foodVendor/liz.jpg"
-
+                    src="/images/foodVendor/liz.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px] rounded-md"
                   />
@@ -105,15 +98,9 @@ const CatalogItemPage = () => {
                   </h4>
                 </Link>
               </div>
-              <NavLink to="/" className="-mt-16 text-[22px] flex justify-end z-10">
-    
-    <img
-                        src="/images/logod2.png"
-          alt="location"
-          className=""
-        />
-
-    </NavLink>
+              <NavLink to="/" className=" text-[22px] flex justify-end z-10">
+                <img src="/images/logod2.png" alt="location" className="" />
+              </NavLink>
             </div>
           </div>
           <div className="overlay absolute inset-0 bg-black opacity-70"></div>

@@ -1,14 +1,14 @@
-import React from 'react'
-import Navbar from '../../../Navbar'
-import { GrLocation } from 'react-icons/gr'
-import { NavLink } from 'react-router-dom'
-import { IoPersonCircleSharp } from 'react-icons/io5'
+import React from "react";
+import Navbar from "../../../Navbar";
+import { GrLocation } from "react-icons/gr";
+import { NavLink } from "react-router-dom";
+import { IoPersonCircleSharp } from "react-icons/io5";
 
 const ChickenRep = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-full">
+      <div className="relative h-screen">
         <div className="h-full  pb-20  w-full ">
           <img
             src="/images/bg.jpg"
@@ -18,13 +18,13 @@ const ChickenRep = () => {
           <div className="max-w-screen-xl px-3 lg:px-14  mx-auto lg:gap-8 xl:gap-12 ">
             <div className="flex flex-col gap-2  h-full text-white">
               <h4 className="text-amber-400 md:pt-[130px] pt-[100px] z-10 text-[30px] md:text-[45px] font-[600]">
-      Chicken Republic
+                Chicken Republic
               </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
               <div className="z-10">
                 <img
-                 src="/images/foodVendor/chicken.jpg"
+                  src="/images/foodVendor/chicken.jpg"
                   alt="location"
                   className="w-[300px] h-[300px]  rounded-md"
                 />
@@ -40,28 +40,26 @@ const ChickenRep = () => {
 <GrLocation className="text-amber-400 w-8 h-8"/>
 Sango Itedo
 </div> */}
-                <a href='https://g.co/kgs/DvPqd5S' target='_blank' className="flex items-center gap-2">
+                <a
+                  href="https://g.co/kgs/DvPqd5S"
+                  target="_blank"
+                  className="flex items-center gap-2"
+                >
                   <GrLocation className="text-amber-400 w-8 h-8" />
-                  Chicken Republic - Sky Mall Sangotedo	
+                  Chicken Republic - Sky Mall Sangotedo
                 </a>
               </div>
 
-              <NavLink to="/" className="-mt-16 text-[22px] flex justify-end z-10">
-    
-    <img
-                        src="/images/logod2.png"
-          alt="location"
-          className=""
-        />
-
-    </NavLink>
+              <NavLink to="/" className=" text-[22px] flex justify-end z-10">
+                <img src="/images/logod2.png" alt="location" className="" />
+              </NavLink>
             </div>
           </div>
           <div className="overlay absolute inset-0 bg-black opacity-70"></div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ChickenRep
+export default ChickenRep;

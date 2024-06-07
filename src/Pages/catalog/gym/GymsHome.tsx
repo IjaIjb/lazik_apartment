@@ -6,7 +6,7 @@ const GymsHome = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-full ">
+      <div className="relative h-screen ">
         <div className="h-full  pb-20 object-cover w-full ">
           <img
             src="/images/bg.jpg"
@@ -107,10 +107,7 @@ const GymsHome = () => {
                   <h4 className="text-[12px] text-center uppercase">Fitness</h4>
                 </Link>
               </div>
-              <NavLink
-                to="/"
-                className="-mt-16 text-[22px] flex justify-end z-10"
-              >
+              <NavLink to="/" className=" text-[22px] flex justify-end z-10">
                 <img src="/images/logod2.png" alt="location" className="" />
               </NavLink>
             </div>

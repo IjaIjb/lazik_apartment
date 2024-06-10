@@ -6,7 +6,7 @@ const CatalogItemPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-screen ">
+      <div className="relative h-full ">
         <div className="h-full  pb-20 object-cover w-full ">
           <img
             src="/images/bg.jpg"

@@ -25,7 +25,7 @@ const AmenitiesHome = () => {
                   <img
                     src="/images/amenities/wifi.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="w-full md:h-[200px] h-[100px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">Wifi</h4>
                 </Link>

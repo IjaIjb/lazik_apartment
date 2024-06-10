@@ -23,7 +23,7 @@ const catalogHome = () => {
                 Places of interest near you
               </h4>
 
-              <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
+              <div className="grid lg:grid-cols-4 grid-cols-2 gap-2 z-10">
                 <Link to="/catalog/food-vendor">
                   <img
                     src="/images/download.jpg"

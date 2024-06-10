@@ -32,10 +32,10 @@ const RosticksPage = () => {
               </div>
 
               <div className="flex flex-col gap-4 pt-4 z-10">
-                {/* <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2">
                   <IoPersonCircleSharp className="text-amber-400 w-8 h-8" />
-                  +2347082864331
-                </div> */}
+                  +2348069097852
+                </div>
                 {/* <div className='flex items-center gap-2'>
 <GrLocation className="text-amber-400 w-8 h-8"/>
 Sango Itedo

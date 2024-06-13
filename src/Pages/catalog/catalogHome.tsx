@@ -26,7 +26,7 @@ const catalogHome = () => {
               <div className="grid lg:grid-cols-4 grid-cols-2 gap-2 z-10">
                 <Link to="/catalog/food-vendor">
                   <img
-                    src="/images/download.jpg"
+                    src="/images/WhatsApp Image 2024-06-13 at 03.38.49_20832d8f.jpg"
                     alt="location"
                     className="rounded-md"
                   />
@@ -35,7 +35,7 @@ const catalogHome = () => {
 
                 <Link to="/catalog/restaurants">
                   <img
-                    src="/images/download (1).jpg"
+                    src="/images/WhatsApp Image 2024-06-13 at 03.38.50_3f669d10.jpg"
                     alt="location"
                     className="rounded-md"
                   />
@@ -57,7 +57,7 @@ const catalogHome = () => {
 
                 <div>
                   <img
-                    src="/images/download (3).jpg"
+                    src="/images/WhatsApp Image 2024-06-13 at 03.38.49_805c1dbb.jpg"
                     alt="location"
                     className="rounded-md"
                   />
@@ -77,7 +77,7 @@ const catalogHome = () => {
 
                 <div>
                   <img
-                    src="/images/download (5).jpg"
+                    src="/images/WhatsApp Image 2024-06-13 at 03.38.49_d88a5ad6.jpg"
                     alt="location"
                     className="rounded-md"
                   />

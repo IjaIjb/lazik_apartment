@@ -43,7 +43,7 @@ const AmenitiesHome = () => {
 
                 <div>
                   <img
-                    src="/images/amenities/snookers.jpg"
+                    src="/images/amenities/WhatsApp Image 2024-06-13 at 03.38.49_dab95998.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px] rounded-md"
                   />

@@ -22,11 +22,11 @@ const SupermarketHome = () => {
 
               <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/superM/WhatsApp Image 2024-06-10 at 12.14.37_c42bbf80.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     DKK supermarket plaza
                   </h4>
@@ -42,22 +42,22 @@ const SupermarketHome = () => {
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/superM/WhatsApp Image 2024-06-10 at 12.14.36_f4826b5a.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Blenco Supermarket sangotedo
                   </h4>
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/superM/WhatsApp Image 2024-06-10 at 12.14.37_7c18c111.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Emrite supermarket
                   </h4>

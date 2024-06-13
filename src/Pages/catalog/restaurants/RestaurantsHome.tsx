@@ -6,7 +6,7 @@ const RestaurantsHome = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-screen ">
+      <div className="relative h-full ">
         <div className="h-full  pb-20 object-cover w-full ">
           <img
             src="/images/bg.jpg"
@@ -22,77 +22,77 @@ const RestaurantsHome = () => {
 
               <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/WhatsApp Image 2024-06-10 at 21.05.52_76689a82.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Bole plus, Barbecue restaurant
                   </h4>
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/WhatsApp Image 2024-06-10 at 21.07.01_2a4827e6.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Rosticks restaurant(pizza)
                   </h4>
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/WhatsApp Image 2024-06-10 at 21.08.46_feb83317.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Matthans shawarma
                   </h4>
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/WhatsApp Image 2024-06-10 at 21.10.05_a7d9dee5.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Domino’s pizza
                   </h4>
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/WhatsApp Image 2024-06-10 at 21.11.15_0155c34d.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Food dynasty, (Chinese restaurant)
                   </h4>
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/WhatsApp Image 2024-06-10 at 21.12.34_9ab1f0b1.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Blossom delight fast food
                   </h4>
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/WhatsApp Image 2024-06-10 at 21.14.25_5c57d450.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     01MANDARIN CHINESE TAKEAWAY
                   </h4>
@@ -110,11 +110,11 @@ const RestaurantsHome = () => {
                 </Link>
 
                 <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/WhatsApp Image 2024-06-10 at 21.14.47_acae1410.jpg"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     China Wok Restaurant
                   </h4>

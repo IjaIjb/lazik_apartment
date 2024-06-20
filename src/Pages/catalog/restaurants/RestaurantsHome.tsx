@@ -20,7 +20,7 @@ const RestaurantsHome = () => {
               </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
-              <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
+              <div className="grid lg:grid-cols-4 grid-cols-2 gap-2 z-10">
                 <Link to="/catalog/restaurants/bole-plus">
                   <img
                     src="/images/Bole plus, Barbecue restaurant.png"
@@ -56,7 +56,7 @@ const RestaurantsHome = () => {
 
                 <Link to="/catalog/restaurants/dominos-pizza">
                   <img
-                    src="/images/Domino’s pizza.png"
+                    src="/images/Dominos pizza.png"
                     alt="location"
                     className="rounded-md"
                   />

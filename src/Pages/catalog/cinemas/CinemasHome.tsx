@@ -20,7 +20,7 @@ const CinemasHome = () => {
               </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
-              <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
+              <div className="grid lg:grid-cols-4 grid-cols-2 gap-2 z-10">
                 <Link to="/catalog/cinemas/sky-cinema">
                   <img
                     src="/images/cinemas/skymall.jpg"
@@ -36,7 +36,7 @@ const CinemasHome = () => {
                   <img
                     src="/images/cinemas/genesis.jpg"
                     alt="location"
-                    className="rounded-md"
+                    className="w-[210px] h-[210px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Genesis cinemas, sangotedo

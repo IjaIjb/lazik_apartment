@@ -20,7 +20,7 @@ const PharmacyHome = () => {
               </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
-              <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
+              <div className="grid lg:grid-cols-4 grid-cols-2 gap-2 z-10">
                 <Link to="/catalog/food-vendor/yakoyo">
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"

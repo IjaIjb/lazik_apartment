@@ -20,7 +20,7 @@ const GymsHome = () => {
               </h4>
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
-              <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
+              <div className="grid lg:grid-cols-4 grid-cols-2 gap-2 z-10">
                 <Link to="/catalog/gyms/genesis-fitness">
                   <img
                     src="/images/Genesis Fitness 50 , Ajah.png"

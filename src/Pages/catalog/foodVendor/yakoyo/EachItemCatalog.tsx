@@ -26,7 +26,7 @@ const EachItemCatalog = () => {
                 <img
                   src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
-                  className=" rounded-md"
+                  className="w-[300px] h-[300px] rounded-md"
                 />
                 {/* <h4 className='text-[12px] text-center uppercase'>yakoyo abula joint</h4> */}
               </div>

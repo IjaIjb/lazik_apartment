@@ -21,55 +21,55 @@ const ParksHome = () => {
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
               <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/parks/lufasi">
                   <img
-                    src="/images/parks/lufasi.jpg"
+                    src="/images/Lufasi Nature Park.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Lufasi Nature Park
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/parks/vgc">
+                  <img
+                    src="/images/VGC PARK 2.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     VGC PARK 2
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/parks/lekki">
+                  <img
+                    src="/images/Lekki conservation center.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Lekki conservation center
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/parks/muri-okunola">
+                  <img
+                    src="/images/Muri Okunola park.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Muri Okunola park
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/parks/greenfingers">
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
                     Greenfingers Wildlife Conservation

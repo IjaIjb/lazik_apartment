@@ -6,7 +6,7 @@ const SupermarketHome = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-screen ">
+      <div className="relative h-full ">
         <div className="h-full  pb-20 object-cover w-full ">
           <img
             src="/images/bg.jpg"
@@ -21,65 +21,65 @@ const SupermarketHome = () => {
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
               <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/supermarket/dkk-plaza">
                   <img
-                    src="/images/superM/WhatsApp Image 2024-06-10 at 12.14.37_c42bbf80.jpg"
+                    src="/images/DKK supermarket plaza.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     DKK supermarket plaza
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/supermarket/skymart">
+                  <img
+                    src="/images/Skymart.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">Skymart</h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/supermarket/blenco">
                   <img
                     src="/images/superM/WhatsApp Image 2024-06-10 at 12.14.36_f4826b5a.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Blenco Supermarket sangotedo
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/supermarket/emrite">
                   <img
-                    src="/images/superM/WhatsApp Image 2024-06-10 at 12.14.37_7c18c111.jpg"
+                    src="/images/Emrite supermarket.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Emrite supermarket
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/supermarket/zira">
+                  <img
+                    src="/images/ZIRA SUPERMARKET.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     ZIRA SUPERMARKET
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/supermarket/ebeano">
+                  <img
+                    src="/images/Ebeano Supermarket.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Ebeano Supermarket
                   </h4>

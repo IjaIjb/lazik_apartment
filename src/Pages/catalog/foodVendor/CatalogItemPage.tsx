@@ -34,7 +34,7 @@ const CatalogItemPage = () => {
 
                 <Link to="/catalog/food-vendor/rosticks">
                   <img
-                    src="/images/foodVendor/rosticks.jpg"
+                    src="/images/Rosticks Restaurant.png"
                     alt="location"
                     className="w-full md:h-[200px]    h-[100px] rounded-md"
                   />

@@ -55,14 +55,15 @@ const catalogHome = () => {
                   </h4>
                 </Link>
 
-                <div>
+           
+                <Link to="/catalog/market">
                   <img
                     src="/images/WhatsApp Image 2024-06-13 at 03.38.49_805c1dbb.jpg"
                     alt="location"
                     className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">market</h4>
-                </div>
+                </Link>
 
                 <div>
                   <img
@@ -75,14 +76,14 @@ const catalogHome = () => {
                   </h4>
                 </div>
 
-                <div>
+                <Link to="/catalog/lounge">
                   <img
                     src="/images/WhatsApp Image 2024-06-13 at 03.38.49_d88a5ad6.jpg"
                     alt="location"
                     className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">lounge</h4>
-                </div>
+                </Link>
 
                 <Link to="/catalog/parks">
                   <img

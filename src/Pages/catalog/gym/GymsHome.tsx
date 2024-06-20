@@ -6,7 +6,7 @@ const GymsHome = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-screen ">
+      <div className="relative h-full ">
         <div className="h-full  pb-20 object-cover w-full ">
           <img
             src="/images/bg.jpg"
@@ -21,90 +21,90 @@ const GymsHome = () => {
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
               <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/gyms/genesis-fitness">
+                  <img
+                    src="/images/Genesis Fitness 50 , Ajah.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Genesis Fitness 50 , Ajah
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/gyms/i-fitness-ajah">
                   <img
-                    src="/images/gyms/i-fit.jpg"
+                    src="/images/i-Fitness Gym, Ajah.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     i-Fitness Gym, Ajah
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/gyms/i-am-fit">
+                  <img
+                    src="/images/I AM FIT Gym, Abraham Adesanya.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     I AM FIT Gym, Abraham Adesanya
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/gyms/i-fitness">
+                  <img
+                    src="/images/i-Fitness Gym, Badore.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     i-Fitness Gym, Badore
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/gyms/amplified">
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
                     Amplified Gym
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/gyms/i-fitness-vgc">
+                  <img
+                    src="/images/i-Fitness Gym, VGC branch.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     i-Fitness Gym, VGC branch
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/gyms/pure-fitness">
+                  <img
+                    src="/images/Pure fitness Africa, Ikota.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Pure fitness Africa, Ikota
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/gyms/go-fitness">
+                  <img
+                    src="/images/Go Fitness centre, Lekki.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
-                  <h4 className="text-[12px] text-center uppercase">Fitness</h4>
+                    className="rounded-md"
+                  />
+                  <h4 className="text-[12px] text-center uppercase">Go Fitness centre, Lekki</h4>
                 </Link>
               </div>
               <NavLink to="/" className=" text-[22px] flex justify-end z-10">

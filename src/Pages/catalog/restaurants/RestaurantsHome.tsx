@@ -21,99 +21,99 @@ const RestaurantsHome = () => {
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
               <div className="grid lg:grid-cols-4 grid-cols-3 gap-2 z-10">
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/restaurants/bole-plus">
                   <img
-                    src="/images/WhatsApp Image 2024-06-10 at 21.05.52_76689a82.jpg"
+                    src="/images/Bole plus, Barbecue restaurant.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Bole plus, Barbecue restaurant
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/restaurants/rosticks-pizza">
                   <img
-                    src="/images/WhatsApp Image 2024-06-10 at 21.07.01_2a4827e6.jpg"
+                    src="/images/Rosticks restaurant(pizza).png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Rosticks restaurant(pizza)
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/restaurants/matthans-shawarma">
                   <img
-                    src="/images/WhatsApp Image 2024-06-10 at 21.08.46_feb83317.jpg"
+                    src="/images/Matthans shawarma.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Matthans shawarma
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/restaurants/dominos-pizza">
                   <img
-                    src="/images/WhatsApp Image 2024-06-10 at 21.10.05_a7d9dee5.jpg"
+                    src="/images/Domino’s pizza.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Domino’s pizza
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/restaurants/food-dynasty">
                   <img
-                    src="/images/WhatsApp Image 2024-06-10 at 21.11.15_0155c34d.jpg"
+                    src="/images/Food dynasty, (Chinese restaurant).png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Food dynasty, (Chinese restaurant)
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/restaurants/blossom-delight">
                   <img
-                    src="/images/WhatsApp Image 2024-06-10 at 21.12.34_9ab1f0b1.jpg"
+                    src="/images/Blossom Delight Fast Food.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Blossom delight fast food
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/restaurants/mandarin-chinese">
                   <img
-                    src="/images/WhatsApp Image 2024-06-10 at 21.14.25_5c57d450.jpg"
+                    src="/images/01MANDARIN CHINESE TAKEAWAY.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     01MANDARIN CHINESE TAKEAWAY
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/restaurants/ski">
+                  <img
+                    src="/images/SKI RESTAURANT.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
-                  /> */}
+                    className="rounded-md"
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     SKI RESTAURANT
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
+                <Link to="/catalog/restaurants/china-work">
                   <img
-                    src="/images/WhatsApp Image 2024-06-10 at 21.14.47_acae1410.jpg"
+                    src="/images/China Wok Restaurant Ikoyi, Lagos.png"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     China Wok Restaurant

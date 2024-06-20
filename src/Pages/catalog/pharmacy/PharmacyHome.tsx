@@ -25,7 +25,7 @@ const PharmacyHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
                     Gnc Pharmacy, Sangotedo
@@ -36,7 +36,7 @@ const PharmacyHome = () => {
                   {/* <img
                     src="/images/gyms/i-fit.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
                     DkK Pharmacy
@@ -47,7 +47,7 @@ const PharmacyHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
                     Pharmacy 24, Sangotedo
@@ -58,7 +58,7 @@ const PharmacyHome = () => {
                   <img
                     src="/images/pharmacy/belfast.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Belfast plus pharmcy, Canaan estate
@@ -69,7 +69,7 @@ const PharmacyHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
                     Living healthy, Thera Annex
@@ -80,7 +80,7 @@ const PharmacyHome = () => {
                   {/* <img
                     src="/images/foodVendor/yakoyo.jpg"
                     alt="location"
-                    className="w-full md:h-[200px] h-[100px]rounded-md"
+                    className="rounded-md"
                   /> */}
                   <h4 className="text-[12px] text-center uppercase">
                     Elmickey pharmacy and stores, Idowu Dabiri Rd

@@ -8,7 +8,7 @@ const EachItemCatalog = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-screen">
+      <div className="relative h-full">
         <div className="h-full  pb-20  w-full ">
           <img
             src="/images/bg.jpg"
@@ -26,7 +26,7 @@ const EachItemCatalog = () => {
                 <img
                   src="/images/foodVendor/yakoyo.jpg"
                   alt="location"
-                  className="w-[300px] h-[300px] rounded-md"
+                  className=" rounded-md"
                 />
                 {/* <h4 className='text-[12px] text-center uppercase'>yakoyo abula joint</h4> */}
               </div>

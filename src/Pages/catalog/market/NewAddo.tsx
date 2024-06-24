@@ -23,7 +23,7 @@ const NewAddo = () => {
 
             <div className="z-10">
               <img
-                                   src="/images/China Wok Restaurant Ikoyi, Lagos.png"
+                                           src="/images/New Addo Market.png"
 
                 alt="location"
                 className="  rounded-md"

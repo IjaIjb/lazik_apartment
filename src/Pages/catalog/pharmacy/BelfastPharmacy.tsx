@@ -24,9 +24,10 @@ const BelfastPharmacy = () => {
 
               <div className="z-10">
                 <img
-                  src="/images/pharmacy/belfast.jpg"
+                                   src="/images/Belfast plus pharmacy, Canaan estate.png"
+
                   alt="location"
-                  className="w-[300px] h-[300px]  rounded-md"
+                  className=" rounded-md"
                 />
                 {/* <img
                 src="/images/foodVendor/rosticks.jpg"

@@ -21,34 +21,34 @@ const PharmacyHome = () => {
               {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
               <div className="grid lg:grid-cols-4 grid-cols-2 gap-2 z-10">
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/pharmacy/gnc">
+                  <img
+                    src="/images/GNC Phamacy.png"
                     alt="location"
                     className="rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
-                    Gnc Pharmacy, Sangotedo
+                    GNC Pharmacy, Sangotedo
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/gyms/i-fit.jpg"
+                <Link to="/catalog/pharmacy/dkk">
+                  <img
+                    src="/images/DKK Phamacy.png"
                     alt="location"
                     className="rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     DkK Pharmacy
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/pharmacy/pharmacy24">
+                  <img
+                    src="/images/Phamacy24.png"
                     alt="location"
                     className="rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Pharmacy 24, Sangotedo
                   </h4>
@@ -56,7 +56,7 @@ const PharmacyHome = () => {
 
                 <Link to="/catalog/pharmacy/belfast">
                   <img
-                    src="/images/pharmacy/belfast.jpg"
+                    src="/images/Belfast plus pharmacy, Canaan estate.png"
                     alt="location"
                     className="rounded-md"
                   />

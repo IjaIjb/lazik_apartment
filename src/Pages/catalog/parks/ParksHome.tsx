@@ -66,11 +66,11 @@ const ParksHome = () => {
                 </Link>
 
                 <Link to="/catalog/parks/greenfingers">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/Greenfingers Wildlife Conservation.png"
                     alt="location"
                     className="rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Greenfingers Wildlife Conservation
                   </h4>

@@ -64,11 +64,11 @@ const LoungeHome = () => {
                 </Link>
 
                 <Link to="/catalog/lounge/ebony">
-                  {/* <img
-                    src="/images/ZIRA SUPERMARKET.png"
+                  <img
+                    src="/images/Ebony Lounge.png"
                     alt="location"
                     className="rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                   Ebony lounge
                   </h4>

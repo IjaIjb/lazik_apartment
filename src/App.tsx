@@ -65,6 +65,31 @@ import PureFitness from './Pages/catalog/gym/PureFitness';
 import GoFitness from './Pages/catalog/gym/GoFitness';
 import SkyCinema from './Pages/catalog/cinemas/SkyCinema';
 import GenesisCinema from './Pages/catalog/cinemas/GenesisCinema';
+import WorkstationHome from './Pages/catalog/workstations/WorkstationHome';
+import GncPharmacy from './Pages/catalog/pharmacy/GncPharmacy';
+import DkkPharmacy from './Pages/catalog/pharmacy/DkkPharmacy';
+import Pharmacy24 from './Pages/catalog/pharmacy/Pharmacy24';
+import TechEvery from './Pages/catalog/workstations/TechEvery';
+import TheKave from './Pages/catalog/workstations/TheKave';
+import GenesiDeluxe from './Pages/catalog/cinemas/GenesiDeluxe';
+import FilmhouseIkota from './Pages/catalog/cinemas/FilmhouseIkota';
+import FilmhouseImax from './Pages/catalog/cinemas/FilmhouseImax';
+import GrandCinemas from './Pages/catalog/cinemas/GrandCinemas';
+import Silverbird from './Pages/catalog/cinemas/Silverbird';
+import FilmhouseLekkiP from './Pages/catalog/cinemas/FilmhouseLekkiP';
+import PersonalShopperHome from './Pages/catalog/personalShopper/PersonalShopperHome';
+import Kwickmall from './Pages/catalog/personalShopper/Kwickmall';
+import Kaybee from './Pages/catalog/personalShopper/Kaybee';
+import BeachesHome from './Pages/catalog/beaches/BeachesHome';
+import Atican from './Pages/catalog/beaches/Atican';
+import LovingLagos from './Pages/catalog/beaches/LovingLagos';
+import SantaCruz from './Pages/catalog/beaches/SantaCruz';
+import MrNollywood from './Pages/catalog/beaches/MrNollywood';
+import Royalty from './Pages/catalog/beaches/Royalty';
+import KidsBeach from './Pages/catalog/beaches/KidsBeach';
+import AlphaBeach from './Pages/catalog/beaches/AlphaBeach';
+import ElegushiBe from './Pages/catalog/beaches/ElegushiBe';
+import EpikaizoBoutiques from './Pages/catalog/boutique/EpikaizoBoutiques';
 
 function App() {
   return (
@@ -128,7 +153,15 @@ function App() {
   <Route  path="/catalog/cinemas" element={<CinemasHome/>}/>
   <Route  path="/catalog/cinemas/sky-cinema" element={<SkyCinema/>}/>
   <Route  path="/catalog/cinemas/genesis-cinema" element={<GenesisCinema/>}/>
+  <Route  path="/catalog/cinemas/genesis-deluxe-cinema" element={<GenesiDeluxe/>}/>
+  <Route  path="/catalog/cinemas/filmhouse-cinema-ikota" element={<FilmhouseIkota/>}/>
+  <Route  path="/catalog/cinemas/filmhouse-cinema-imax" element={<FilmhouseImax/>}/>
+  <Route  path="/catalog/cinemas/grand-cinemas" element={<GrandCinemas/>}/>
+  <Route  path="/catalog/cinemas/silverbird" element={<Silverbird/>}/>
+  <Route  path="/catalog/cinemas/filmhouse-cinema-lekki" element={<FilmhouseLekkiP/>}/>
   {/* <Route  path="/catalog/cinemas" element={<CinemasHome/>}/> */}
+
+  <Route  path="/catalog/boutique/epikaizo" element={<EpikaizoBoutiques/>}/>
 
 
   <Route  path="/catalog/parks" element={<ParksHome/>}/>
@@ -149,8 +182,30 @@ function App() {
   <Route  path="/catalog/gyms/pure-fitness" element={<PureFitness/>}/>
   <Route  path="/catalog/gyms/go-fitness" element={<GoFitness/>}/>
 
+  <Route  path="/catalog/beaches" element={<BeachesHome/>}/>
+  <Route  path="/catalog/beaches/atican" element={<Atican/>}/>
+  <Route  path="/catalog/beaches/loving-lagos" element={<LovingLagos/>}/>
+  <Route  path="/catalog/beaches/elegushi" element={<ElegushiBe/>}/>
+  <Route  path="/catalog/beaches/santa-cruz" element={<SantaCruz/>}/>
+  <Route  path="/catalog/beaches/mr-nollywood" element={<MrNollywood/>}/>
+  <Route  path="/catalog/beaches/royalty" element={<Royalty/>}/>
+  <Route  path="/catalog/beaches/kids" element={<KidsBeach/>}/>
+  <Route  path="/catalog/beaches/alpha" element={<AlphaBeach/>}/>
+
+
+  <Route  path="/catalog/workstation" element={<WorkstationHome/>}/>
+  <Route  path="/catalog/workstation/techevery" element={<TechEvery/>}/>
+  <Route  path="/catalog/workstation/thekave" element={<TheKave/>}/>
+
+  <Route  path="/catalog/personal-shopper" element={<PersonalShopperHome/>}/>
+  <Route  path="/catalog/personal-shopper/kwickmall" element={<Kwickmall/>}/>
+  <Route  path="/catalog/personal-shopper/kaybee" element={<Kaybee/>}/>
+
   <Route  path="/catalog/pharmacy" element={<PharmacyHome/>}/>
   <Route  path="/catalog/pharmacy/belfast" element={<BelfastPharmacy/>}/>
+  <Route  path="/catalog/pharmacy/gnc" element={<GncPharmacy/>}/>
+  <Route  path="/catalog/pharmacy/dkk" element={<DkkPharmacy/>}/>
+  <Route  path="/catalog/pharmacy/pharmacy24" element={<Pharmacy24/>}/>
 
 
   

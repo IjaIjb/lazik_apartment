@@ -65,16 +65,16 @@ const catalogHome = () => {
                   <h4 className="text-[12px] text-center uppercase">market</h4>
                 </Link>
 
-                <div>
+                <Link to="/catalog/boutique/epikaizo  ">
                   <img
-                    src="/images/download (4).jpg"
+               src="/images/download (4).jpg"
                     alt="location"
                     className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     boutique
                   </h4>
-                </div>
+                </Link>
 
                 <Link to="/catalog/lounge">
                   <img
@@ -102,15 +102,14 @@ const catalogHome = () => {
                   />
                   <h4 className="text-[12px] text-center uppercase">gym</h4>
                 </Link>
-
-                <div>
+                <Link to="/catalog/beaches">
                   <img
                     src="/images/download (7).jpg"
                     alt="location"
                     className="rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">beaches</h4>
-                </div>
+                </Link>
 
                 <Link to="/catalog/cinemas">
                   <img
@@ -121,18 +120,18 @@ const catalogHome = () => {
                   <h4 className="text-[12px] text-center uppercase">cinemas</h4>
                 </Link>
 
-                <div>
+                <Link to="/catalog/workstation">
                   <img
-                    src="/images/download (9).jpg"
+                    src="/images/WhatsApp Image 2024-06-17 at 10.23.16_4ce9f02e.jpg"
                     alt="location"
-                    className="rounded-md"
+                    className="w-full h-[180px] rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     workstations
                   </h4>
-                </div>
+                </Link>
 
-                <div>
+                <Link to="/catalog/personal-shopper">
                   <img
                     src="/images/images (1).jpg"
                     alt="location"
@@ -141,7 +140,7 @@ const catalogHome = () => {
                   <h4 className="text-[12px] text-center uppercase">
                     personal shopper
                   </h4>
-                </div>
+                </Link>
 
                 <Link to="/catalog/pharmacy">
                   <img

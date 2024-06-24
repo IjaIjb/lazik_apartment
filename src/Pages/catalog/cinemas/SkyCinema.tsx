@@ -23,7 +23,7 @@ const SkyCinema = () => {
 
             <div className="z-10">
               <img
-                            src="/images/cinemas/skymall.jpg"
+                            src="/images/Sky cinemas, sangotedo.png"
 
                 alt="location"
                 className="  rounded-md"

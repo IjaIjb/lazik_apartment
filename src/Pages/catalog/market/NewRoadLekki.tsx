@@ -24,8 +24,7 @@ const NewRoadLekki = () => {
 
             <div className="z-10">
               <img
-                                         src="/images/New road market, Lekki Pennisula II.png"
-
+                                       src="/images/New road market, Lekki Pennisula II.png"
 
                 alt="location"
                 className="  rounded-md"

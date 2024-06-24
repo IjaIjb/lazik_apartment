@@ -53,7 +53,7 @@ const Navbar = () => {
             id="navbar-sticky"
           >
             <div className="flex flex-col mt-5 font-medium md:flex-row lg:space-x-3 lg:mt-3 ml-[80px]">
-              <NavLink
+              {/* <NavLink
                 to="/"
                 className="block py-2 pl-4 pr-4  text-sm tracking-wider font-normal hover:font-semibold leading-5  lg:pb-5 "
                 style={({ isActive }) =>
@@ -63,7 +63,7 @@ const Navbar = () => {
                 }
               >
                 The Spaces
-              </NavLink>
+              </NavLink> */}
 
               <NavLink
                 to="/amenities"
@@ -115,14 +115,14 @@ const Navbar = () => {
           {(ref) => (
             <div className="lg:hidden    bg-amber-400   mt-3" id="mobile-menu">
               <div ref={ref} className=" pt-6 pb-3 space-y-1">
-                <NavLink
+                {/* <NavLink
                   to="/"
                   onClick={() => setIsOpen(!isOpen)}
                   className="block text-[#616161]spl-3 font-bold hover:bg-gray-100"
                 >
                   The Spaces
                 </NavLink>
-                <hr className="pb-3" />
+                <hr className="pb-3" /> */}
 
                 <NavLink
                   to="/amenities"

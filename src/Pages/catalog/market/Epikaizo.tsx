@@ -23,12 +23,12 @@ const Epikaizo = () => {
             {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
             <div className="z-10">
-              {/* <img
-                                   src="/images/China Wok Restaurant Ikoyi, Lagos.png"
+              <img
+                                            src="/images/Epikaizo village market.png"
 
                 alt="location"
                 className="  rounded-md"
-              /> */}
+              />
               {/* <h4 className='text-[12px] text-center uppercase'>yakoyo abula joint</h4> */}
             </div>
 

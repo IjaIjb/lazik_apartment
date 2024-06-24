@@ -64,11 +64,11 @@ const MarketHome = () => {
               </Link>
 
               <Link to="/catalog/market/new-addo">
-                {/* <img
-                  src="/images/ZIRA SUPERMARKET.png"
+                <img
+                  src="/images/New Addo Market.png"
                   alt="location"
                   className="rounded-md"
-                /> */}
+                />
                 <h4 className="text-[12px] text-center uppercase">
                 New addo market
                 </h4>
@@ -86,11 +86,11 @@ const MarketHome = () => {
               </Link>
 
               <Link to="/catalog/market/epikaizo">
-                {/* <img
-                  src="/images/Ebeano Supermarket.png"
+                <img
+                  src="/images/Epikaizo village market.png"
                   alt="location"
                   className="rounded-md"
-                /> */}
+                />
                 <h4 className="text-[12px] text-center uppercase">
                 Epikaizo village market, United estate, Sangotedo
                 </h4>

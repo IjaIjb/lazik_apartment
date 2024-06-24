@@ -23,12 +23,12 @@ const Greenfingers = () => {
             {/* <div className='bg-amber-400 z-10 h-[6px] w-[180px] md:w-[270px]'></div> */}
 
             <div className="z-10">
-              {/* <img
-                            src="/images/Muri Okunola park.png"
+              <img
+                            src="/images/Greenfingers Wildlife Conservation.png"
 
                 alt="location"
                 className="  rounded-md"
-              /> */}
+              />
               {/* <h4 className='text-[12px] text-center uppercase'>yakoyo abula joint</h4> */}
             </div>
 

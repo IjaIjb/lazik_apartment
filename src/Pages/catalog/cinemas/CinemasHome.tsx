@@ -23,7 +23,7 @@ const CinemasHome = () => {
               <div className="grid lg:grid-cols-4 grid-cols-2 gap-2 z-10">
                 <Link to="/catalog/cinemas/sky-cinema">
                   <img
-                    src="/images/cinemas/skymall.jpg"
+                    src="/images/Sky cinemas, sangotedo.png"
                     alt="location"
                     className="rounded-md"
                   />
@@ -34,76 +34,76 @@ const CinemasHome = () => {
 
                 <Link to="/catalog/cinemas/genesis-cinema">
                   <img
-                    src="/images/cinemas/genesis.jpg"
+                    src="/images/Genesis cinemas, sangotedo.png"
                     alt="location"
-                    className="w-[210px] h-[210px] rounded-md"
+                    className=" rounded-md"
                   />
                   <h4 className="text-[12px] text-center uppercase">
                     Genesis cinemas, sangotedo
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                  src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/cinemas/genesis-deluxe-cinema">
+                  <img
+                  src="/images/Genesis Deluxe cinemas, palms shopping mall, Lekki.png"
                   alt="location"
                   className="rounded-md"
-                /> */}
+                />
                   <h4 className="text-[12px] text-center uppercase">
                     Genesis Deluxe cinemas, palms shopping mall, Lekki
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                  src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/cinemas/filmhouse-cinema-ikota">
+                  <img
+                  src="/images/Filmhouse cinemas, Ikota.png"
                   alt="location"
                   className="rounded-md"
-                /> */}
+                />
                   <h4 className="text-[12px] text-center uppercase">
                     Filmhouse cinemas, Ikota
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                  src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/cinemas/filmhouse-cinema-imax">
+                  <img
+                  src="/images/Filmhouse cinemas, IMAX Lekki Lagos.png"
                   alt="location"
                   className="rounded-md"
-                /> */}
+                />
                   <h4 className="text-[12px] text-center uppercase">
-                    Filmhouse cinemas, IMAX Lekki Lagos ,
+                    Filmhouse cinemas, IMAX Lekki Lagos
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                  src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/cinemas/grand-cinemas">
+                  <img
+                  src="/images/Grand cinemas and Arcade, Chevron drive,.png"
                   alt="location"
                   className="rounded-md"
-                /> */}
+                />
                   <h4 className="text-[12px] text-center uppercase">
-                    Grand cinemas and Arcade, Chevron drive,
+                    Grand cinemas and Arcade, Chevron drive
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                  src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/cinemas/silverbird">
+                  <img
+                  src="/images/Silverbird Galleria, VI.png"
                   alt="location"
                   className="rounded-md"
-                /> */}
+                />
                   <h4 className="text-[12px] text-center uppercase">
                     Silverbird Galleria, VI
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                  src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/cinemas/filmhouse-cinema-lekki">
+                  <img
+                  src="/images/Filmhouse.png"
                   alt="location"
                   className="rounded-md"
-                /> */}
+                />
                   <h4 className="text-[12px] text-center uppercase">
                     Filmhouse cinema, Lekki peninsula II, Lekki
                   </h4>

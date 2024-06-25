@@ -66,11 +66,11 @@ const GymsHome = () => {
                 </Link>
 
                 <Link to="/catalog/gyms/amplified">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                  <img
+                    src="/images/Amplified gym.png"
                     alt="location"
                     className="rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Amplified Gym
                   </h4>

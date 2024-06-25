@@ -90,6 +90,8 @@ import KidsBeach from './Pages/catalog/beaches/KidsBeach';
 import AlphaBeach from './Pages/catalog/beaches/AlphaBeach';
 import ElegushiBe from './Pages/catalog/beaches/ElegushiBe';
 import EpikaizoBoutiques from './Pages/catalog/boutique/EpikaizoBoutiques';
+import TheraAnnex from './Pages/catalog/pharmacy/TheraAnnex';
+import Elmickey from './Pages/catalog/pharmacy/Elmickey';
 
 function App() {
   return (
@@ -206,6 +208,8 @@ function App() {
   <Route  path="/catalog/pharmacy/gnc" element={<GncPharmacy/>}/>
   <Route  path="/catalog/pharmacy/dkk" element={<DkkPharmacy/>}/>
   <Route  path="/catalog/pharmacy/pharmacy24" element={<Pharmacy24/>}/>
+  <Route  path="/catalog/pharmacy/thera-annex" element={<TheraAnnex/>}/>
+  <Route  path="/catalog/pharmacy/elmickey" element={<Elmickey/>}/>
 
 
   

@@ -6,7 +6,7 @@ const PharmacyHome = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-screen ">
+      <div className="relative h-full ">
         <div className="h-full  pb-20 object-cover w-full ">
           <img
             src="/images/bg.jpg"
@@ -65,23 +65,23 @@ const PharmacyHome = () => {
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/pharmacy/thera-annex">
+                  <img
+                    src="/images/Thera annex Pharmacy.png"
                     alt="location"
                     className="rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Living healthy, Thera Annex
                   </h4>
                 </Link>
 
-                <Link to="/catalog/food-vendor/yakoyo">
-                  {/* <img
-                    src="/images/foodVendor/yakoyo.jpg"
+                <Link to="/catalog/pharmacy/elmickey">
+                  <img
+                    src="/images/Elmickery Pharmacy.png"
                     alt="location"
                     className="rounded-md"
-                  /> */}
+                  />
                   <h4 className="text-[12px] text-center uppercase">
                     Elmickey pharmacy and stores, Idowu Dabiri Rd
                   </h4>

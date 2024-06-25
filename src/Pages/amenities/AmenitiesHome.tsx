@@ -32,7 +32,7 @@ const AmenitiesHome = () => {
 
                 <div>
                   <img
-                    src="/images/amenities/ground.jpg"
+                    src="/images/washing machine.png"
                     alt="location"
                     className="w-full md:h-[200px] h-[100px] rounded-md"
                   />
